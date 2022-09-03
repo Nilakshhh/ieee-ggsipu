@@ -1,11 +1,15 @@
 import React from "react";
 import Sectionhome from "../components/Sectionhome";
 import Sectionabout from "../components/Sectionabout";
- function Home() {
+import Sectionourteam from "../components/Sectionourteam";
+
+function Home() {
      return (
          <div>
          <Sectionhome />
          <Sectionabout />
+         <Sectionourteam />
+         
          </div>
      )
  }
