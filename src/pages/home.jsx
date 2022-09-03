@@ -1,8 +1,12 @@
 import React from "react";
-
+import Sectionhome from "../components/Sectionhome";
+import Sectionabout from "../components/Sectionabout";
  function Home() {
      return (
-         <div><h1>hello home</h1></div>
+         <div>
+         <Sectionhome />
+         <Sectionabout />
+         </div>
      )
  }
 

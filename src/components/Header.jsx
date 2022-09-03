@@ -1,13 +1,9 @@
 import React from "react";
-import Image from "../small compo/Image";
+import Image from "../small compo/Image"
+ function Header() {
+   return( <header>
 
-function Header() {
-return(
-    <header>
-        <Image src="../images/ieeeusictlogo.png"/>
-        
-    </header>
-)
-}
+   </header>)
+ }
 
-export default Header;
+ export default Header;
