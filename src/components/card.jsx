@@ -1,15 +1,16 @@
 import React from "react";
 import Image from "../small compo/Image";
+import Paragraph from "../small compo/Paragraph";
+import Heading from "../small compo/Heading";
 
-function Card(){
+function Card(props){
 return (
     <figure class="snip1174 red">
-  <Image src="../images/Bgdesign.png"/>
+  <Image src={props.src}/>
   <figcaption>
-    <h2>Ingredia Nutrisha</h2>
-    <p>
-      Sometimes one should just look at things and think about things without doing things.
-    </p>
+    <Heading class="invi" text={props.text}/>
+    <hr />
+    <Paragraph content={props.content} />
   </figcaption>
 </figure>
 
