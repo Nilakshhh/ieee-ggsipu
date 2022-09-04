@@ -1,10 +1,10 @@
 import React from "react";
-import Paragraph from "../small compo/Paragraph";
+import Sectionicons from "./Sectionicons";
 
 function Footer() {
     return(
-        <div>
-            <Paragraph content="Copyright @ IEEE-GGSIPU 2022"/>
+        <div className="foot">
+            <Sectionicons />
         </div>
     );
 }
