@@ -9,7 +9,6 @@ return (
   <Image src={props.src}/>
   <figcaption>
     <Heading class="invi" text={props.text}/>
-    <hr />
     <Paragraph content={props.content} />
   </figcaption>
 </figure>

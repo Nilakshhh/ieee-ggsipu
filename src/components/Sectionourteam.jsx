@@ -21,11 +21,22 @@ function Sectionourteam() {
           <Card src="../images/Aakriti.jpg" text="Aakriti Saxena" content="WIE Vice Chairperson"/>
           <Card src="../images/himanshu.jpeg" text="Himanshu Sisodia" content="WIE Vice Chairperson"/>
         </div>
-        <Heading text="Our Branch Mentor" class="aboutourteam"/>
+        <Heading text="Branch Mentors" class="aboutourteam"/>
         <div className="student-card">
           <Card src="../images/abhishek.jpeg" text="Abhishek" content="Branch Mentor"/>
           <Card src="../images/wamika.jpeg" text="Wamika Jha" content="Branch Mentor"/>
           <Card src="../images/Ragini.jpeg" text="Ragini Bhayana" content="Branch Mentor"/>
+        </div>
+        <Heading text="Our Technical Team" class="aboutourteam"/>
+        <div className="student-card">
+        <Card src="../images/Nilaksh.jpeg" text="Nilaksh Dureja" content="Technical Lead"/>
+        <Card src="../images/Aryavir.jpeg" text="Aryavir Malik" content="Technical member"/>
+        <Card src="../images/wamika.jpeg" text="Aryavir Malik" content="Technical member"/>
+        </div>
+        <div className="student-card">
+        <Card src="../images/Nilaksh.jpeg" text="Nilaksh Dureja" content="Technical Lead"/>
+        <Card src="../images/Aryavir.jpeg" text="Aryavir Malik" content="Technical member"/>
+        <Card src="../images/wamika.jpeg" text="Aryavir Malik" content="Technical member"/>
         </div>
         </div>
 </div>)

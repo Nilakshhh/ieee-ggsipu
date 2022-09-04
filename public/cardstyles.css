@@ -88,7 +88,7 @@ figure.snip1174.hover img {
 }
 .teacher-card figure{
   width: 520px;
-  height: 325px;
+  height: 310px;
 }
 .student-card{
   display: flex;
@@ -98,7 +98,7 @@ figure.snip1174.hover img {
 }
 .student-card figure{
   width: 520px;
-  height: 325px;
+  height: 310px;
 }
 .invisible{
   opacity: 0;

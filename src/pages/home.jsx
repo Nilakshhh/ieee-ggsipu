@@ -2,6 +2,7 @@ import React from "react";
 import Sectionhome from "../components/Sectionhome";
 import Sectionabout from "../components/Sectionabout";
 import Sectionourteam from "../components/Sectionourteam";
+import Sectionwie from "../components/Sectionwie";
 
 function Home() {
      return (
@@ -9,7 +10,7 @@ function Home() {
          <Sectionhome />
          <Sectionabout />
          <Sectionourteam />
-         
+         <Sectionwie />
          </div>
      )
  }
