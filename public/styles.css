@@ -68,6 +68,12 @@ header img{
     background-color: #262626;
     color: grey;
 }
+.ourevent .aboutheading{
+text-align: center;
+}
+.ourevent{
+    margin-bottom: 50px;
+}
 .ico-box{
     padding-top: 40px;
     margin-bottom: 40px;
@@ -75,6 +81,12 @@ header img{
     gap: 10px;
     justify-content: center;
 }
+#carouselExampleControlsNoTouching img{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}
+
 @media only screen and (max-width: 800px) {
    html{
        font-size: 56%;
