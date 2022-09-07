@@ -2,7 +2,7 @@ import React from "react";
 import Heading from "../small compo/Heading"
 function Sectionevent() {
     return(<div className="ourevent">
-        <Heading text="Our Event" class="aboutheading"/>
+        <Heading text="Past Events" class="aboutheading"/>
         <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
         <div class="carousel-inner">
           <div class="carousel-item active">

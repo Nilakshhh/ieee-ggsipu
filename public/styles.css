@@ -7,7 +7,7 @@ body{
     margin: 0;    
     background-color: #eee;
 }
-header{
+.navbar{    
 background-color: #A5F1E9;
 height: 12vh;
 padding: 2vh;
@@ -58,9 +58,21 @@ flex-direction: column;
     margin-top: 10px;
     font-size: 17px;
 }
-header img{
+/*header img{
     width: 15vh;
     height: 10vh;
+}*/
+.smalll{
+    width: 15vh;
+    height: 10vh;
+}
+.nav-link{
+    font-size: 14px;
+    margin-left: 25px;
+}
+.extrasection{
+    position: absolute;
+    right: 3%;
 }
 .foot{
     text-align: center;
