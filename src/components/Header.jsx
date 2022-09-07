@@ -20,6 +20,7 @@ import React from "react";
          </li>
        </ul>
        <div className="extrasection">
+       <a href="https://instagram.com/ieeeggsipu?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-4x fa-instagram"></i></a>
        <a href="https://www.linkedin.com/company/ieeeggsipu/"><i class="fa-brands fa-4x fa-linkedin"></i></a>
        </div>
      </div>

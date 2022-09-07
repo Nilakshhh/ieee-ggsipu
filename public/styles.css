@@ -58,10 +58,7 @@ flex-direction: column;
     margin-top: 10px;
     font-size: 17px;
 }
-/*header img{
-    width: 15vh;
-    height: 10vh;
-}*/
+
 .smalll{
     width: 15vh;
     height: 10vh;
@@ -73,6 +70,9 @@ flex-direction: column;
 .extrasection{
     position: absolute;
     right: 3%;
+}
+.extrasection a{
+    margin: 5px;
 }
 .foot{
     text-align: center;
