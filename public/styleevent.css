@@ -1,0 +1,277 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+body{
+  margin: 0px;
+  overflow-x: hidden;
+}
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+header{
+  background-color: black;
+  background-image: linear-gradient(90deg, #440152, #EE116F);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  color: white;
+  height: 450px;
+}
+.headed{
+  width: 100%;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 5%;
+}
+.headed h1{
+  font-family: 'Otomanopee One', sans-serif;
+  font-size: 70px;
+}
+.headed p{
+  font-family: arial;
+  font-size: 20px;
+}
+.headed button{
+    margin: 1%;
+    padding: 1%;
+    background-color: white;
+    border: 10px outset purple;
+    color: purple;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.headed button:hover{
+    border: 10px groove white;
+    background-color: purple;
+    color: white;
+}
+.parallax{
+    background-image: url('https://s3.amazonaws.com/codementor_content/2015-Aug-week3/portfolio.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.sp-box{
+    display: flex;
+    flex-direction: row;
+}
+.speaker{
+    flex: 30%;
+    margin: 1%;
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: 2px 5px 10px 4px black;
+    position: relative;
+}
+.speaker img{
+    width: 80%;
+    height: 450px;
+}
+.sp-con{
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.con{
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  
+}
+.para-con h1{
+    font-family: monospace;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.speaker:hover .sp-con{
+  display: block;
+}
+.schedule{
+  background-color: black;
+  color: white;
+  margin-top: 0px;
+}
+.schedule *{
+  box-sizing: border-box;
+}
+.schedule h1{
+  font-family: monospace;
+  font-family: monospace;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+}
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.cont {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+  color: black;
+}
+
+/* The circles on the timeline */
+.cont::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -12px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.l {
+  left: 0;
+}
+
+/* Place the container to the right */
+.r {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.l::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.r::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.r::after {
+  left: -12px;
+}
+@media screen and (max-width: 600px){
+  
+  head{
+    width: 95%;
+    height: 95vh;
+    position: relative;
+  }
+  .headed h1{
+  font-family: 'Otomanopee One', sans-serif;
+  font-size: 50px;
+}
+  .headed p{
+    width: 95%;
+    font-size: 13px;
+  }
+  .sp-box{
+    flex-direction: column;
+  }
+  .speaker{
+    margin: 3%;
+  }
+  .sp-con{
+    display: block;
+    position: absolute;
+    right: auto;
+    left: auto;
+    top: auto;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  .con{
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+}
+  .parallax{
+    height: 50vh;
+  }
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+  
+  /* Full-width containers */
+  .cont {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .cont::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .l::after, .r::after {
+  left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .r {
+  left: 0%;
+  }
+  
+}

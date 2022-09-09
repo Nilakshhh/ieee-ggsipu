@@ -28,15 +28,9 @@ function Sectionourteam() {
           <Card src="../images/Ragini.jpeg" text="Ragini Bhayana" content="Branch Mentor"/>
         </div>
         <Heading text="Our Technical Team" class="aboutourteam"/>
-        <div className="student-card">
+        <div className="teacher-card">
         <Card src="../images/Nilaksh.jpeg" text="Nilaksh Dureja" content="Technical Lead"/>
         <Card src="../images/Aryavir.jpeg" text="Aryavir Malik" content="Technical member"/>
-        <Card src="../images/wamika.jpeg" text="Aryavir Malik" content="Technical member"/>
-        </div>
-        <div className="student-card">
-        <Card src="../images/Nilaksh.jpeg" text="Nilaksh Dureja" content="Technical Lead"/>
-        <Card src="../images/Aryavir.jpeg" text="Aryavir Malik" content="Technical member"/>
-        <Card src="../images/wamika.jpeg" text="Aryavir Malik" content="Technical member"/>
         </div>
         </div>
 </div>)

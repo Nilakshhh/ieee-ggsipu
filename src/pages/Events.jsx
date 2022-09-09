@@ -1,8 +1,11 @@
 import React from "react";
+import Eventpage from "../components/Eventpage";
 
  function Events() {
      return (
-         <div><h1>hello event</h1></div>
+         <div>
+             <Eventpage />
+         </div>
      )
  }
 

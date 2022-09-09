@@ -22,6 +22,7 @@ import React from "react";
        <div className="extrasection">
        <a href="https://instagram.com/ieeeggsipu?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-3x fa-instagram"></i></a>
        <a href="https://www.linkedin.com/company/ieeeggsipu/"><i class="fa-brands fa-3x fa-linkedin"></i></a>
+       <a href="https://m.facebook.com/706218599427060/"><i class="fa-brands fa-3x fa-facebook"></i></a>
        </div>
      </div>
    </div>
