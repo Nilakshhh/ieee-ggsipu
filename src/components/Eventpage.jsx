@@ -26,7 +26,7 @@ function Eventpage() {
     </div>
   </div>
   <div class="speaker">
-    <img src="../images/Nilaksh.jpeg" alt="John" />
+    <img src="../images/Karan.jpg" alt="John" />
     <div class="sp-con">
       <div class="con">
         <h2>Nilaksh Dureja</h2>
@@ -35,7 +35,7 @@ function Eventpage() {
     </div>
   </div>
   <div class="speaker">
-    <img src="../images/Karan.jpg" alt="Jacob" />
+    <img src="../images/Nilaksh.jpeg" alt="Jacob" />
     <div class="sp-con">
       <div class="con">
         <h2>Karan Pandey</h2>
