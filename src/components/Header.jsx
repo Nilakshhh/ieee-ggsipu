@@ -3,7 +3,7 @@ import React from "react";
    return(
    <nav class="navbar navbar-expand-lg bg-light">
    <div class="container-fluid">
-     <img src="../images/ieeeusictlogo.png" className="smalll"/>
+     <img src="../images/ieeeggsipulogo.png" className="smalll"/>
      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
        <span class="navbar-toggler-icon"><i class="fa-solid fa-sliders fa-4x"></i></span>
      </button>
@@ -16,7 +16,7 @@ import React from "react";
            <a class="nav-link" href="/#aboutus">About Us</a>
          </li>
          <li class="nav-item">
-           <a class="nav-link" href="/events">Upcoming events</a>
+           <a class="nav-link" href="/events">Events</a>
          </li>
        </ul>
        <div className="extrasection">

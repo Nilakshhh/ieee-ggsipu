@@ -44,6 +44,37 @@ function Aarambh() {
                 </div>
              </div>
           </div>
+          
+          
+<div class="schedule">
+  <h1>Schedule</h1>
+  <div class="timeline">
+    <div class="conner l">
+      <div class="content">
+        <h3>10 July 2021</h3>
+        <h4>Registration Starts</h4>
+      </div>
+    </div>
+    <div class="conner r">
+      <div class="content">
+        <h3>17 July 2021</h3>
+        <h4>Registration Closes</h4>
+      </div>
+    </div>
+    <div class="conner l">
+      <div class="content">
+        <h3>19 July 2021</h3>
+        <h4>Program Starts</h4>
+      </div>
+    </div>
+    <div class="conner r">
+      <div class="content">
+        <h3>11 October 2021</h3>
+        <h4>Program Ends</h4>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
