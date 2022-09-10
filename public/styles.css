@@ -79,6 +79,8 @@ flex-direction: column;
     font-size: 15px;
     background-color: #262626;
     color: grey;
+    padding-top: 20px;
+    margin-bottom: -10px;
 }
 .ourevent .aboutheading{
 text-align: center;
