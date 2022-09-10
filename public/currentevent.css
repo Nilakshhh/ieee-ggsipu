@@ -1,0 +1,65 @@
+.evenheadcont{
+    height: 45vh;
+    margin-bottom: 10vh;
+    background-image: linear-gradient(to bottom right, #25316D, #5F6F94);
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.evenhead{
+    color: antiquewhite;
+    font-family: 'Otomanopee One', sans-serif;
+  font-size: 78px;
+}
+.evenpara{
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+  font-size: 18px;
+}
+
+
+.sp-box{
+    display: flex;
+    flex-direction: row;
+}
+.speaker{
+    flex: 30%;
+    margin: 1%;
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: 2px 5px 10px 4px black;
+    position: relative;
+}
+.speaker img{
+    width: 80%;
+    height: 450px;
+}
+.sp-con{
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.con{
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  
+}
+.para-con h1{
+    font-family: monospace;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.speaker:hover .sp-con{
+  display: block;
+}
