@@ -1,0 +1,36 @@
+.wie{
+   background-image: url("../images/parallax.png");
+    height: 80vh;
+    margin-bottom: 10vh;
+    background-position: center;
+      background-repeat: no-repeat; 
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 100px;
+}
+@media only screen and (max-width: 800px) {
+    .wie{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.WIElogo{
+    width: 450px;
+    height: 425px;
+}
+.wietextbox{
+    -webkit-box-shadow: 1px -1px 24px 1px rgba(138,43,226,0.95);
+-moz-box-shadow: 1px -1px 24px 1px rgba(138,43,226,0.95);
+box-shadow: 1px -1px 24px 1px rgba(138,43,226,0.95);
+    /*height:425px;
+    width: 550px;*/
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 25px;
+    color: blueviolet;
+    font-weight: 400;
+}
