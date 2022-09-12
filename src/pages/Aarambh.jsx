@@ -75,9 +75,6 @@ function Aarambh() {
     </div>
   </div>
 </div>
-
-
-
         </div>
     )
 }
