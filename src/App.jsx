@@ -4,9 +4,9 @@ import {
   Route
 } from 'react-router-dom'
 import Home from './pages/home.jsx';
-import About from './pages/About';
+import About from './pages/about.jsx';
 import Header from './components/Header';
-import Contact from './pages/Contact';
+import Contact from './pages/contact.jsx';
 import Footer from './components/Footer';
 import Events from './pages/Events';
 import Aarambh from './pages/Aarambh';
