@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/ieee-ggsipu/static/js/main.b798d0a4.js",
+    "main.js": "/ieee-ggsipu/static/js/main.0cd80979.js",
     "index.html": "/ieee-ggsipu/index.html",
-    "main.b798d0a4.js.map": "/ieee-ggsipu/static/js/main.b798d0a4.js.map"
+    "main.0cd80979.js.map": "/ieee-ggsipu/static/js/main.0cd80979.js.map"
   },
   "entrypoints": [
-    "static/js/main.b798d0a4.js"
+    "static/js/main.0cd80979.js"
   ]
 }
