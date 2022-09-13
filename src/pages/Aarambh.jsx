@@ -16,7 +16,7 @@ function Aarambh() {
              <h1>Instructors</h1>
              <div class="sp-box">
                 <div class="speaker">
-                  <img src="../images/devansh.jpg" alt="Larry"/>
+                  <img src="./images/devansh.jpg" alt="Larry"/>
                   <div class="sp-con">
                     <div class="con">
                      <h2>Devansh Oberoi</h2>
@@ -25,7 +25,7 @@ function Aarambh() {
                   </div>
                 </div>
                 <div class="speaker">
-                  <img src="../images/Nilaksh.jpeg" alt="John"/>
+                  <img src="./images/Nilaksh.jpeg" alt="John"/>
                   <div class="sp-con">
                     <div class="con">
                      <h2>Nilaksh Dureja</h2>
@@ -34,7 +34,7 @@ function Aarambh() {
                   </div>
                 </div>
                 <div class="speaker">
-                   <img src="../images/Karan.jpg" alt="Jacob"/>
+                   <img src="./images/Karan.jpg" alt="Jacob"/>
                    <div class="sp-con">
                     <div class="con">
                       <h2>Karan Pandey</h2>

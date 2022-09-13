@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Link} from "react-router-dom";
 function Eventpage() {
     return(
       <div>
@@ -28,10 +28,10 @@ function Eventpage() {
                 </table>
               </div>
               <div class="col-lg-5 sec-2">
-                <img src="../images/Aarambh.png" />
+                <img src="./images/Aarambh.png" />
               </div>
               <div class="col-lg-5 sec-3">
-                <div class="title"><a aria-current="page" href="/aarambh">AARAMBH- Tech workshop and hackathon</a></div>
+                <div class="title"><Link aria-current="page" to="/aarambh">AARAMBH- Tech workshop and hackathon</Link></div>
                 <div class="venue">
                   <table>
                     <tr>
@@ -81,7 +81,7 @@ function Eventpage() {
                 </table>
               </div>
               <div class="col-lg-5 sec-2">
-                <img src="../images/coming.png" />
+                <img src="./images/coming.png" />
               </div>
               <div class="col-lg-5 sec-3">
                 <div class="title">IEEE Week- Where Tech meets Fun</div>
@@ -137,7 +137,7 @@ function Eventpage() {
                 </table>
               </div>
               <div class="col-lg-5 sec-2">
-                <img src="../images/umang.jpeg" />
+                <img src="./images/umang.jpeg" />
               </div>
               <div class="col-lg-5 sec-3">
                 <div class="title">Umang fest</div>
