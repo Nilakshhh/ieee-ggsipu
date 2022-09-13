@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom"; 
  function Header() {
    return(
    <nav class="navbar navbar-expand-lg bg-light">
@@ -10,13 +11,13 @@ import React from "react";
      <div class="collapse navbar-collapse" id="navbarNav">
        <ul class="navbar-nav justify-content-end">
          <li class="nav-item">
-           <a class="nav-link active" aria-current="page" href="/">Home</a>
+           <Link class="nav-link active" aria-current="page" to="/">Home</Link>
          </li>
          <li class="nav-item">
-           <a class="nav-link" href="/#aboutus">About Us</a>
+           <Link class="nav-link" href="/#aboutus">About Us</Link>
          </li>
          <li class="nav-item">
-           <a class="nav-link" href="/events">Events</a>
+           <Link class="nav-link" href="/events">Events</Link>
          </li>
        </ul>
        <div className="extrasection">

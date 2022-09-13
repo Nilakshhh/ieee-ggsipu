@@ -6,13 +6,13 @@ function Sectionevent() {
         <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="../images/umang.jpeg" class="d-block" alt="..."/>
+            <img src="./images/umang.jpeg" class="d-block" alt="..."/>
           </div>
           <div class="carousel-item">
-            <img src="../images/workshop.jpg" class="d-block" alt="..."/>
+            <img src="./images/workshop.jpg" class="d-block" alt="..."/>
           </div>
           <div class="carousel-item">
-            <img src="../images/event.jpg" class="d-block" alt="..."/>
+            <img src="./images/event.jpg" class="d-block" alt="..."/>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
