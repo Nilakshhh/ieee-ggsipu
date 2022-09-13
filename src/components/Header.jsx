@@ -11,13 +11,13 @@ import {Link} from "react-router-dom";
      <div class="collapse navbar-collapse" id="navbarNav">
        <ul class="navbar-nav justify-content-end">
          <li class="nav-item">
-           <Link class="nav-link active" aria-current="page" to="/">Home</Link>
+                  <Link class="nav-link active" aria-current="page" to="/">Home</Link>
          </li>
          <li class="nav-item">
-           <Link class="nav-link" href="/#aboutus">About Us</Link>
+           <Link class="nav-link" to="/#aboutus">About Us</Link>
          </li>
          <li class="nav-item">
-           <Link class="nav-link" href="/events">Events</Link>
+           <Link class="nav-link" to="/events">Events</Link>
          </li>
        </ul>
        <div className="extrasection">
