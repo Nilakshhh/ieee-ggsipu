@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.b798d0a4.js",
-    "index.html": "/index.html",
-    "main.b798d0a4.js.map": "/static/js/main.b798d0a4.js.map"
+    "main.js": "/ieee-ggsipu/static/js/main.b798d0a4.js",
+    "index.html": "/ieee-ggsipu/index.html",
+    "main.b798d0a4.js.map": "/ieee-ggsipu/static/js/main.b798d0a4.js.map"
   },
   "entrypoints": [
     "static/js/main.b798d0a4.js"
